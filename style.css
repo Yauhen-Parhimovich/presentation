@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+@media  (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media  (max-width: 430px) {
+    body {
+        font-size: 11px;
+    }
+}
+
+#particles-js {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.app {
+    background: darkcyan;
+    min-height: 100vh;
+    overflow: hidden;
+
+}
+
+.wrapper {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.lang {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+
+.lang span {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 5px;
+}
+
+.button {
+    background: transparent;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    color: inherit;
+}
+
+.button:hover {
+    opacity: 0.3;
+}
+
+.button_active {
+    text-decoration: underline;
+    cursor: auto;
+}
+
+.button_active.button:hover {
+    opacity: 1;
+}
+
+.content {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 10px 0 10px 10%;
+    max-width: 600px;
+}
+
+.content_en {
+
+}
+
+.content_ru {
+    display: none;
+
+}
+
+.greeting {
+    font-weight: 700;
+    font-size: 4em;
+}
+
+.name {
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.text {
+    margin: 10px 0;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.text__link {
+    color: inherit;
+}
+
+.text__link:hover {
+    opacity: 0.3;
+}
+
+
