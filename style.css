@@ -8,7 +8,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 16px;
-    overflow: hidden;
 }
 
 @media  (max-width: 768px) {
@@ -27,13 +26,12 @@ body {
     position: absolute;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 
 .app {
     background: darkcyan;
     min-height: 100vh;
-    overflow: hidden;
-
 }
 
 .wrapper {
